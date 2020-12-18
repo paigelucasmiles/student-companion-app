@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="app.css">
+        <script defer src="index.js"></script>
+        <title>Flatiron Student App</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/TBWb6FL/Storytelling.png">
+    </head>
+    <body>
+        <header>
+            <nav class="top-bar">
+            <div class="title">
+                <h1 class="page-title">My Resources</h1>
+            </div>
+            <div class="search">
+                <form id="search-form" class="" action="" method="GET">
+                    <input id="topic-search-input" type="text" name="name" placeholder="Search">
+                </form>
+            </div>
+            </nav>
+            <div class="new-entry-form-container">
+                <h3 class="form-title">Save New Resource</h3>
+                <form class="new-entry-form">
+                    <input type="string" name="name" placeholder="Title">
+                    <input type="string" name="url" placeholder="URL">
+                    <select name="kind" class="kind-filter">
+                        <option value="">Resource Type</option>
+                    </select>
+                    <button id="new-entry-submit-button" type="submit">save</button>
+                </form>
+            </div>
+        </header>
+        <main>
+            <h4><a id="back-btn" href="/index.html">< back</a></h4>
+            <div class="entry-card-container"></div>
+        </main>
+        <footer></footer>
+    </body>
+</html>
